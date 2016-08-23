@@ -1,0 +1,336 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Supercómputo en el LANCIS-Instituto de Ecología
+\end_layout
+
+\begin_layout Section
+Introducción
+\end_layout
+
+\begin_layout Standard
+La supercomputadora del Laboratorio Nacional de Ciencias de la Sostenibilidad
+ del Instituto de Ecología es un recurso compartido.
+ Si bien tiene la capacidad de ejecutar cientos de tareas al mismo tiempo
+ es necesario observar algunas reglas para su funcionamiento óptimo.
+ 
+\end_layout
+
+\begin_layout Subsection
+Infraestructura de hardware y software
+\end_layout
+
+\begin_layout Standard
+La supercomputadora está constituida de decenas de computadoras interconectadas
+ y configuradas para cooperar entre sí como si fueran una sóla.
+ Desde el punto de vista del usuario, el instrumento entero se usa desde
+ el nodo central, que es un equipo dedicado a mantener sesiones interactivas
+ y despachar tareas a los nodos de cómputo.
+\end_layout
+
+\begin_layout Standard
+Esto se hace posible a través de componentes de software: 
+\end_layout
+
+\begin_layout Subsubsection
+Sistema operativo 
+\end_layout
+
+\begin_layout Standard
+Se ha configurado la versión 8.5 de Debian, un sistema robusto, con una amplia
+ base de usuarios y muchos casos de éxito en el contexto de cómputo masivo.
+ Se ha configurado para que todos los nodos de la supercomputadora
+\end_layout
+
+\begin_layout Itemize
+tengan una réplica de la base de datos de usuarios
+\end_layout
+
+\begin_layout Itemize
+puedan acceder al sistema principal de almacenamiento
+\end_layout
+
+\begin_layout Subsubsection
+Sistema de cola o fila de ejecución
+\end_layout
+
+\begin_layout Standard
+Se ha instalado y configurado HT-Condor, un sistema de cómputo distribuido
+ flexible y poderoso.
+ Este sistema permite a los usuarios compartir la infraestructura brindando
+ un acceso ordenado al conjunto entero de recursos.
+ En escencia implementa una cola en la que las tareas de cómputo deben formarse
+ para su ejecución de acuerdo con el esquema de prioridades configurado.
+ El esquema actual es: 
+\emph on
+first-come-first-serve
+\emph default
+.
+\end_layout
+
+\begin_layout Subsubsection
+Bibliotecas especializadas
+\end_layout
+
+\begin_layout Standard
+Bibliotecas especializadas como Message Passing Interface (MPI) han sido
+ instaladas.
+ Este tipo de software permite la creación y ejecución de programas que
+ mantienen muchos hilos de ejecución en paralelo.
+ La supercomputadora soporta software creado con bibliotecas como MPI pues
+ todos los nodos de cómputo tienen varios procesadores, y estos programas
+ pueden y deben invocarse desde HT-Condor descrito en la sección anterior.
+\end_layout
+
+\begin_layout Subsection
+Mesa de ayuda
+\end_layout
+
+\begin_layout Standard
+Para organizar el soporte técnico en torno al uso de este recurso se brinda
+ una aplicación web en este URL:
+\end_layout
+
+\begin_layout Standard
+https://github.com/sostenibilidad-unam/supercomputadora
+\end_layout
+
+\begin_layout Standard
+Cuenta con mecanismo de seguimiento de tickets, lo que permite rastrear
+ solicitudes de cambio a la supercomputadora, por ejemplo para corregir
+ desperfectos, instalar nuevo software, etc.
+ 
+\end_layout
+
+\begin_layout Standard
+También cuenta con un wiki para dar soporte a la creación colaborativa de
+ documentación pertinente a la supercomputadora, por ejemplo manuales de
+ su uso para las diferentes piezas de software comunmente ejecutadas.
+\end_layout
+
+\begin_layout Section
+Obtención de acceso
+\end_layout
+
+\begin_layout Standard
+Para obtener una cuenta de usuario es necesario someter una solicitud con
+ la información completa.
+ Todas las cuentas deben de ser auspiciadas por un académico responsable.
+ La obtención de cuentas para los estudiantes necesitan dos formas para
+ el acceso al recurso: la del estudiante y la aprobación del tutor.
+\end_layout
+
+\begin_layout Standard
+Cada invierno se hará una revisión de los usuarios y se eliminarán las cuentas
+ inactivas.
+\end_layout
+
+\begin_layout Section
+Stakeholders
+\end_layout
+
+\begin_layout Standard
+La supercomputadora del LANCIS es el resultado del apoyo financiero del
+ proyecto de Laboratorios Nacionales de Conacyt y otros proyectos.
+ Para justificar su uso continuado es reglamentario:
+\end_layout
+
+\begin_layout Itemize
+que cada proyecto de investigación en desarrollo sobre esta infraestructura
+ tenga un resumen en la siguiente carpeta: https://github.com/sostenibilidad-unam
+/supercomputadora/tree/master/proyectos
+\end_layout
+
+\begin_layout Itemize
+incluir en el resumen información de autores, ponencias, artículos sometidos
+ y publicados
+\end_layout
+
+\begin_layout Itemize
+agradecer a la unidad de Supercómputo del LANCIS-Instituto de Ecología en
+ aquellas publicaciones que hayan requerido el uso de la supercomputadora.
+\end_layout
+
+\begin_layout Standard
+Para garantizar la existencia a largo plazo de este equipo se invita a los
+ usuarios a buscar recursos para su mantenimiento.
+ Sugerimos a cada académico que auspicie el uso del cluster que solicite
+ recursos computacionales en las propuestas individuales de investigación
+ para obtener financiamiento.
+\end_layout
+
+\begin_layout Standard
+Para el mantenimiento de la capacidad de cómputo se invita a los académicos
+ a incluir una partida de cómputo equivalente a un nodo de ~$5,000 USD en
+ los proyectos que sometan para financiamiento.
+\end_layout
+
+\begin_layout Section
+Políticas de uso
+\end_layout
+
+\begin_layout Standard
+Los usuarios deben ejecutar sus programas de manera responsable.
+ Para ello es necesaria familiaridad con el cómputo en paralelo y la configuraci
+ón de software y hardware de la supercomputadora.
+ Se invita a la comunidad a leer la documentación y quizá a solicitar apoyo
+ en la mesa de ayuda.
+\end_layout
+
+\begin_layout Standard
+Si alguna tarea de cómputo en ejecución está impactando detrimentalmente
+ a los demás usuarios en el uso de la infraestructura el administrador del
+ sistema está facultado para terminarla.
+ Se buscará notificar al usuario interesado, pero la responsabilidad del
+ correcto funcionamiento de las tareas es responsabilidad de quien las programa.
+\end_layout
+
+\begin_layout Subsection
+HT-Condor: Fila de ejecución
+\end_layout
+
+\begin_layout Standard
+Todos los usuarios deben de hacer uso del sistema de colas del cluster,
+ que corre en el nodo central y gobierna el uso de los nodos de cómputo.
+ No se permite el acceso directo a los nodos de cómputo para correr trabajos
+ ahí.
+\end_layout
+
+\begin_layout Standard
+Esta prohibido utilizar el nodo central para correr trabajos sin el uso
+ del administrador de colas.
+\end_layout
+
+\begin_layout Standard
+Los usuarios deben de utilizar el sistema de administración de colas (HT-Condor)
+ para reservar los nodos necesarios para sus trabajos.
+ 
+\end_layout
+
+\begin_layout Standard
+La fila de ejecución implementa una política de "atender en el orden en
+ que lleguen
+\begin_inset Quotes erd
+\end_inset
+
+ (
+\emph on
+first-come-firt-serve
+\emph default
+).
+ 
+\end_layout
+
+\begin_layout Subsection
+Almacenamiento
+\end_layout
+
+\begin_layout Standard
+La supercomputadora es un recurso de cómputo intensivo.
+ Naturalmente cuenta con espacio para almacenar datos a la entrada, a la
+ salida, y en condiciones intermedias de su procesamiento.
+ Sin embargo ha sido diseñada para optimizar su capacidad de procesamiento,
+ y no para tener una gran capacidad de almacenamiento: el espacio en disco
+ es un recurso limitado.
+\end_layout
+
+\begin_layout Standard
+Por esta razón debe evitarse el uso de la supercomputadora como servidor
+ de almacenamiento a largo plazo.
+ Se requiere que los usuarios sean juiciosos acerca de qué datos mantener
+ en la supercomputadora, i.e.
+ aquellos con los que estén trabajando.
+\end_layout
+
+\begin_layout Standard
+Se prohibe usar las cuentas de usuario sólo para retener datos.
+\end_layout
+
+\begin_layout Standard
+¡Si el espacio en discos escasea será necesario desarrollar una política
+ de desalojo!
+\end_layout
+
+\begin_layout Subsection
+Ventanas de Mantenimiento
+\end_layout
+
+\begin_layout Standard
+Los usuarios serán notificados por correo electrónico y con anuncios en
+ la mesa de ayuda de cualquier suceso relacionado a la supercomputadora,
+ como ejemplos: actualizaciones de hardware, mantenimientos programados,
+ etc.
+ Se requiere de una comunicación activa para el uso efectivo de este recurso
+ compartido.
+\end_layout
+
+\end_body
+\end_document
