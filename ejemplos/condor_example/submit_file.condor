@@ -1,8 +1,8 @@
 executable     = main.sh
 
 output         = example_$(Process).out
-error          = example_$(Process).out
-log            = example_$(Process).out
+error          = example_$(Process).err
+log            = example_$(Process).log
 
 # requests for 1 cpu are most likely to run in patung, the head node
 # request more than one cpu to see it run in katsina worker nodes
