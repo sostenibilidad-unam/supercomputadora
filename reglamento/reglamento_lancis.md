@@ -63,8 +63,8 @@ para corregir desperfectos, instalar nuevo software, etc.
 
 También cuenta con un wiki para dar soporte a la creación 
 colaborativa de documentación pertinente a la supercomputadora, 
-por ejemplo manuales de su uso para las diferentes piezas de 
-software comunmente ejecutadas.
+por ejemplo manuales de uso para las diferentes piezas de 
+software comúnmente ejecutadas.
 
 ## 2 Obtención de acceso
 
