@@ -50,21 +50,7 @@ bibliotecas como MPI pues todos los nodos de cómputo tienen
 varios procesadores, y estos programas pueden y deben invocarse 
 desde HT-Condor descrito en la sección anterior.
 
-### 1.2 Mesa de ayuda
 
-Para organizar el soporte técnico en torno al uso de este recurso 
-se brinda una aplicación web en este URL:
-
-https://github.com/sostenibilidad-unam/supercomputadora
-
-Cuenta con mecanismo de seguimiento de tickets, lo que permite 
-rastrear solicitudes de cambio a la supercomputadora, por ejemplo 
-para corregir desperfectos, instalar nuevo software, etc. 
-
-También cuenta con un wiki para dar soporte a la creación 
-colaborativa de documentación pertinente a la supercomputadora, 
-por ejemplo manuales de uso para las diferentes piezas de 
-software comúnmente ejecutadas.
 
 ## 2 Obtención de acceso
 
@@ -164,3 +150,18 @@ supercomputadora, como ejemplos: actualizaciones de hardware,
 mantenimientos programados, etc. Se requiere de una comunicación 
 activa para el uso efectivo de este recurso compartido.
 
+### 5 Mesa de ayuda
+
+Para organizar el soporte técnico en torno al uso de este recurso 
+se brinda una aplicación web en este URL:
+
+https://github.com/sostenibilidad-unam/supercomputadora
+
+Cuenta con mecanismo de seguimiento de [issues](https://github.com/sostenibilidad-unam/supercomputadora/issues), lo que permite 
+rastrear solicitudes de cambio a la supercomputadora, por ejemplo 
+para corregir desperfectos, instalar nuevo software, etc. 
+
+También cuenta con un [wiki](https://github.com/sostenibilidad-unam/supercomputadora/wiki) para dar soporte a la creación 
+colaborativa de documentación pertinente a la supercomputadora, 
+por ejemplo manuales de uso para las diferentes piezas de 
+software comúnmente ejecutadas.
