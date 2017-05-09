@@ -1,5 +1,7 @@
 # Reglamento del Cluster de Supercómputo en el LANCIS
 
+Mayo de 2017
+
 ## 1 Introducción
 
 La supercomputadora del Laboratorio Nacional de Ciencias de la 
