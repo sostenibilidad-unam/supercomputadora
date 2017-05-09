@@ -1,4 +1,4 @@
-# Supercómputo en el LANCIS-Instituto de Ecología
+# Reglamento del Cluster de Supercómputo en el LANCIS
 
 ## 1 Introducción
 
