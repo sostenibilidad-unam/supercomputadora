@@ -63,7 +63,7 @@ al recurso: la del estudiante y la aprobación del tutor.
 Cada invierno se hará una revisión de los usuarios y se 
 eliminarán las cuentas inactivas.
 
-## 3 Stakeholders
+## 3 Usuarios y Beneficiarios
 
 La supercomputadora del LANCIS es el resultado del apoyo 
 financiero del proyecto de Laboratorios Nacionales de Conacyt y 
@@ -81,15 +81,6 @@ reglamentario:
   Ecología en aquellas publicaciones que hayan requerido el uso 
   de la supercomputadora.
 
-Para garantizar la existencia a largo plazo de este equipo se 
-invita a los usuarios a buscar recursos para su mantenimiento. 
-Sugerimos a cada académico que auspicie el uso del cluster que 
-solicite recursos computacionales en las propuestas individuales 
-de investigación para obtener financiamiento.
-
-Para el mantenimiento de la capacidad de cómputo se invita a los 
-académicos a incluir una partida de cómputo equivalente a un nodo 
-de ~$5,000 USD en los proyectos que sometan para financiamiento.
 
 ## 4 Políticas de uso
 
