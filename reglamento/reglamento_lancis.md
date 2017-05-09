@@ -50,20 +50,7 @@ bibliotecas como MPI pues todos los nodos de cómputo tienen
 varios procesadores, y estos programas pueden y deben invocarse 
 desde HT-Condor descrito en la sección anterior.
 
-
-
-## 2 Obtención de acceso
-
-Para obtener una cuenta de usuario es necesario someter una 
-solicitud con la información completa. Todas las cuentas deben de 
-ser auspiciadas por un académico responsable. La obtención de 
-cuentas para los estudiantes necesitan dos formas para el acceso 
-al recurso: la del estudiante y la aprobación del tutor.
-
-Cada invierno se hará una revisión de los usuarios y se 
-eliminarán las cuentas inactivas.
-
-## 3 Usuarios y Beneficiarios
+## 2 Usuarios y Beneficiarios
 
 La supercomputadora del LANCIS es el resultado del apoyo 
 financiero del proyecto de Laboratorios Nacionales de Conacyt y 
@@ -82,10 +69,10 @@ reglamentario:
   de la supercomputadora.
 
 
-## 4 Políticas de uso
+## 3 Ejecución de Software
 
-Los usuarios deben ejecutar sus programas de manera responsable. 
-Para ello es necesaria familiaridad con el cómputo en paralelo y 
+Para que los usuarios ejecuten sus programas de manera responsable
+es necesaria cierta familiaridad con el cómputo en paralelo y 
 la configuración de software y hardware de la supercomputadora. 
 Se invita a la comunidad a leer la documentación y quizá a 
 solicitar apoyo en la mesa de ayuda.
@@ -97,7 +84,7 @@ terminarla. Se buscará notificar al usuario interesado, pero la
 responsabilidad del correcto funcionamiento de las tareas es 
 responsabilidad de quien las programa.
 
-### 4.1 HT-Condor: Fila de ejecución
+### 3.1 HT-Condor: Fila de ejecución
 
 Todos los usuarios deben de hacer uso del sistema de colas del 
 cluster, que corre en el nodo central y gobierna el uso de los 
@@ -114,7 +101,7 @@ trabajos.
 La fila de ejecución implementa una política de "atender en el 
 orden en que lleguen” (first-come-firt-serve). 
 
-### 4.2 Almacenamiento
+### 3.2 Almacenamiento
 
 La supercomputadora es un recurso de cómputo intensivo. 
 Naturalmente cuenta con espacio para almacenar datos a la 
@@ -133,7 +120,7 @@ Se prohibe usar las cuentas de usuario sólo para retener datos.
 ¡Si el espacio en discos escasea será necesario desarrollar una 
 política de desalojo!
 
-### 4.3 Ventanas de Mantenimiento
+### 3.3 Ventanas de Mantenimiento
 
 Los usuarios serán notificados por correo electrónico y con 
 anuncios en la mesa de ayuda de cualquier suceso relacionado a la 
@@ -141,7 +128,7 @@ supercomputadora, como ejemplos: actualizaciones de hardware,
 mantenimientos programados, etc. Se requiere de una comunicación 
 activa para el uso efectivo de este recurso compartido.
 
-### 5 Mesa de ayuda
+### 4 Mesa de ayuda
 
 Para organizar el soporte técnico en torno al uso de este recurso 
 se brinda una aplicación web en este URL:
