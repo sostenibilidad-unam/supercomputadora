@@ -8,7 +8,7 @@ cran35:
 #oracle-java:
 # deb http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main
 
-hosts:
+hostsfile:
 	cp hosts /etc/hosts
 
 
