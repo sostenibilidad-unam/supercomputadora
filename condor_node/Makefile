@@ -29,11 +29,14 @@ nis:
 	/etc/init.d/nis start
 
 
-nfs: hosts nis
+nfs: hosts
 	apt-get install nfs-common
 	echo 'patung:/srv    /srv    nfs    rw,fsc,async   0   0' >> /etc/fstab
 	echo 'mong:/srv1    /srv1    nfs    rw,fsc,async   0   0' >> /etc/fstab
 	echo 'tawa:/srv2    /srv2    nfs    rw,fsc,async   0   0' >> /etc/fstab
+	mkdir /srv
+	mkdir /srv1
+	mkdir /srv2
 	mount -a
 
 	ls -lh /srv/home
