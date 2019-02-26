@@ -31,9 +31,9 @@ nis:
 
 nfs: hosts nis
 	apt-get install nfs-common
-	echo 'patung:/srv    /srv    nfs    rw,fsc   0   0' >> /etc/fstab
-	echo 'mong:/srv1    /srv1    nfs    rw,fsc   0   0' >> /etc/fstab
-	echo 'tawa:/srv2    /srv2    nfs    rw,fsc   0   0' >> /etc/fstab
+	echo 'patung:/srv    /srv    nfs    rw,fsc,async   0   0' >> /etc/fstab
+	echo 'mong:/srv1    /srv1    nfs    rw,fsc,async   0   0' >> /etc/fstab
+	echo 'tawa:/srv2    /srv2    nfs    rw,fsc,async   0   0' >> /etc/fstab
 	mount -a
 
 	ls -lh /srv/home
