@@ -49,7 +49,6 @@ console-setup-linux
 coreutils
 cpio
 cpp
-cpp-4.9
 cpp-6
 cron
 cvs
@@ -110,13 +109,9 @@ fonts-noto-mono
 freeglut3
 ftp
 g++
-g++-4.9
 g++-6
 gawk
 gcc
-gcc-4.8-base
-gcc-4.9
-gcc-4.9-base
 gcc-6
 gcc-6-base
 gconf-service
@@ -127,7 +122,6 @@ geoip-database
 gettext
 gettext-base
 gfortran
-gfortran-4.9
 gfortran-6
 ghc
 ghostscript
@@ -208,20 +202,16 @@ libalgorithm-merge-perl
 libapparmor1
 libapr1
 libaprutil1
-libapt-inst1.5
 libapt-inst2.0
 libapt-pkg-perl
-libapt-pkg4.12
 libapt-pkg5.0
 libarchive-extract-perl
 libarchive-zip-perl
 libarchive13
 libarmadillo-dev
-libarmadillo4
 libarmadillo7
 libarpack2
 libarpack2-dev
-libasan1
 libasan3
 libasound2
 libasound2-data
@@ -257,7 +247,6 @@ libavutil55
 libb-hooks-endofscope-perl
 libbdplus0
 libbind9-140
-libbind9-90
 libblas-common
 libblas-dev
 libblas3
@@ -267,7 +256,6 @@ libbonobo2-0
 libbonobo2-common
 libboost-dev
 libboost-filesystem1.62.0
-libboost-iostreams1.55.0
 libboost-iostreams1.62.0
 libboost-system1.62.0
 libboost1.62-dev
@@ -322,9 +310,7 @@ libcurl3-gnutls
 libcurl4-gnutls-dev
 libcwidget3v5
 libdap-dev
-libdap11
 libdap23
-libdapclient3
 libdapclient6v5
 libdapserver7v5
 libdata-optlist-perl
@@ -348,9 +334,7 @@ libdevmapper1.02.1
 libdiscover2
 libdjvulibre-text
 libdjvulibre21
-libdns-export100
 libdns-export162
-libdns100
 libdns162
 libdouble-conversion1
 libdpkg-perl
@@ -411,7 +395,6 @@ libgail-common
 libgail18
 libgbm1
 libgc1c2
-libgcc-4.9-dev
 libgcc-6-dev
 libgcc1
 libgconf-2-4
@@ -425,7 +408,6 @@ libgdbm3
 libgdk-pixbuf2.0-0
 libgdk-pixbuf2.0-common
 libgeoip1
-libgeos-3.4.2
 libgeos-3.5.1
 libgeos-c1v5
 libgeos-dev
@@ -434,11 +416,9 @@ libgeotiff2
 libgetopt-long-descriptive-perl
 libgettextpo-dev
 libgettextpo0
-libgfortran-4.9-dev
 libgfortran-6-dev
 libgfortran3
 libgif-dev
-libgif4
 libgif7
 libgirepository-1.0-1
 libgl1-mesa-dev
@@ -489,7 +469,6 @@ libgnome2-common
 libgnomevfs2-0
 libgnomevfs2-common
 libgnomevfs2-extra
-libgnutls-deb0-28
 libgnutls-openssl27
 libgnutls30
 libgomp1
@@ -520,9 +499,7 @@ libhdf4-0
 libhdf4-0-alt
 libhdf4-alt-dev
 libhdf5-100
-libhdf5-8
 libhdf5-cpp-100
-libhdf5-cpp-8
 libhdf5-dev
 libhdf5-mpi-dev
 libhdf5-openmpi-100
@@ -530,7 +507,6 @@ libhdf5-openmpi-dev
 libhdf5-serial-dev
 libhdfeos0
 libhe5-hdfeos0
-libhogweed2
 libhogweed4
 libhtml-form-perl
 libhtml-format-perl
@@ -551,7 +527,6 @@ libibverbs1
 libice-dev
 libice6
 libicu-dev
-libicu52
 libicu57
 libidn11
 libidn2-0
@@ -571,20 +546,12 @@ libip4tc0
 libip6tc0
 libipc-system-simple-perl
 libiptc0
-libirs-export91
 libisc-export160
-libisc-export95
 libisc160
-libisc95
 libisccc140
-libisccc90
-libisccfg-export90
 libisccfg140
-libisccfg90
-libisl10
 libisl15
 libitm1
-libjasper1
 libjbig-dev
 libjbig0
 libjbig2dec0
@@ -599,7 +566,6 @@ libjs-lodash
 libjs-sphinxdoc
 libjs-underscore
 libjson-c-dev
-libjson-c2
 libjson-c3
 libjson-glib-1.0-0
 libjson-glib-1.0-common
@@ -611,7 +577,6 @@ libk5crypto3
 libkeyutils1
 libklibc
 libkml-dev
-libkml0
 libkmlbase1
 libkmlconvenience1
 libkmldom1
@@ -628,7 +593,6 @@ liblcms2-2
 libldap-2.4-2
 libldap-common
 liblist-moreutils-perl
-libllvm3.5
 libllvm3.9
 liblocale-gettext-perl
 liblockfile-bin
@@ -636,7 +600,6 @@ liblockfile1
 liblog-message-perl
 liblog-message-simple-perl
 liblogging-stdlog0
-liblognorm1
 liblognorm5
 liblqr-1-0
 liblsan0
@@ -648,7 +611,6 @@ liblvm2cmd2.02
 liblwp-mediatypes-perl
 liblwp-protocol-https-perl
 liblwres141
-liblwres90
 liblz4-1
 liblzma-dev
 liblzma5
@@ -664,7 +626,6 @@ libmail-sendmail-perl
 libmailtools-perl
 libmariadbclient-dev
 libmariadbclient-dev-compat
-libmariadbclient18
 libminizip-dev
 libminizip1
 libmng1
@@ -688,7 +649,6 @@ libmpich12
 libmpx2
 libmro-compat-perl
 libmtdev1
-libmysqlclient18
 libnamespace-autoclean-perl
 libnamespace-clean-perl
 libncarg-bin
@@ -702,17 +662,12 @@ libnet-dbus-perl
 libnet-http-perl
 libnet-smtp-ssl-perl
 libnet-ssleay-perl
-libnetcdf-c++4
 libnetcdf-cxx-legacy-dev
 libnetcdf-dev
 libnetcdf11
-libnetcdfc++4
-libnetcdfc7
-libnetcdff5
 libnetfilter-acct1
 libnetfilter-conntrack3
 libnetpbm10
-libnettle4
 libnettle6
 libnewt0.52
 libnfnetlink0
@@ -721,7 +676,6 @@ libnghttp2-14
 libnl-3-200
 libnl-route-3-200
 libnotmuch4
-libnova-0.14-0
 libnova-0.16-0
 libnpth0
 libnspr4
@@ -736,7 +690,6 @@ libogg0
 libopenexr22
 libopenjp2-7
 libopenjp2-7-dev
-libopenjpeg5
 libopenmpi-dev
 libopenmpi2
 libopenmpt0
@@ -774,11 +727,8 @@ libpcrecpp0v5
 libpcsclite1
 libperl4-corelibs-perl
 libperl5.24
-libpgm-5.1-0
 libpipeline1
 libpixman-1-0
-libpng12-0
-libpng12-dev
 libpng16-16
 libpod-latex-perl
 libpod-markdown-perl
@@ -788,18 +738,14 @@ libpolkit-backend-1-0
 libpolkit-gobject-1-0
 libpoppler-dev
 libpoppler-private-dev
-libpoppler46
 libpoppler64
 libpopt0
 libpq-dev
 libpq5
-libprocps3
 libprocps6
 libproj-dev
-libproj0
 libproj12
 libproxy1v5
-libpsl0
 libpsl5
 libpsm-infinipath1
 libpth20
@@ -869,7 +815,6 @@ libqwt5-qt4
 librdmacm1
 libreadline-dev
 libreadline5
-libreadline6
 libreadline7
 libregexp-common-perl
 librest-0.7-0
@@ -895,7 +840,6 @@ libshp2
 libsigc++-2.0-0v5
 libsigsegv2
 libslang2
-libslp1
 libsm-dev
 libsm6
 libsmartcols1
@@ -919,10 +863,8 @@ libssh-gcrypt-4
 libssh2-1
 libssl-dev
 libssl-doc
-libssl1.0.0
 libssl1.0.2
 libssl1.1
-libstdc++-4.9-dev
 libstdc++-6-dev
 libstdc++6
 libstrictures-perl
@@ -1009,7 +951,6 @@ libvisual-0.4-0
 libvorbis0a
 libvorbisenc2
 libvorbisfile3
-libvpx1
 libvpx4
 libvtk6-dev
 libvtk6-java
@@ -1025,11 +966,8 @@ libwayland-cursor0
 libwayland-egl1-mesa
 libwayland-server0
 libwebp-dev
-libwebp5
 libwebp6
-libwebpdemux1
 libwebpdemux2
-libwebpmux1
 libwebpmux2
 libwmf0.2-7
 libwrap0
@@ -1044,7 +982,6 @@ libx11-xcb-dev
 libx11-xcb1
 libx264-148
 libx265-95
-libxapian22
 libxapian30
 libxau-dev
 libxau6
@@ -1125,7 +1062,6 @@ libxss-dev
 libxss1
 libxt-dev
 libxt6
-libxtables10
 libxtables12
 libxtst6
 libxv1
@@ -1134,8 +1070,6 @@ libxxf86dga1
 libxxf86vm-dev
 libxxf86vm1
 libyajl2
-libzmq-dev
-libzmq1
 libzvbi-common
 libzvbi0
 linux-libc-dev
@@ -1195,7 +1129,6 @@ openssh-client
 openssh-server
 openssh-sftp-server
 openssl
-openssl-blacklist
 os-prober
 packagekit
 packagekit-tools
@@ -1284,7 +1217,6 @@ python-qscintilla2
 python-qt4
 python-qt4-gl
 python-qwt5-qt4
-python-reportbug
 python-requests
 python-roman
 python-scipy
@@ -1296,7 +1228,6 @@ python-six
 python-snappy
 python-soappy
 python-subprocess32
-python-support
 python-tk
 python-trollius
 python-twisted
