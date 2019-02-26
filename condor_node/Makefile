@@ -8,11 +8,8 @@ cran35:
 #oracle-java:
 # deb http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main
 
-hostsfile:
-	cp hosts /etc/hosts
-
-
-condor: hosts
+# setup condor node, do this first
+condor: nfs
 	https_proxy=http://patung:8080 wget -qO - https://research.cs.wisc.edu/htcondor/debian/HTCondor-Release.gpg.key | apt-key add -
 	echo "deb http://research.cs.wisc.edu/htcondor/debian/8.6/stretch stretch contrib" >> /etc/apt/sources.list
 	echo "deb-src http://research.cs.wisc.edu/htcondor/debian/8.6/stretch stretch contrib" >> /etc/apt/sources.list
@@ -20,16 +17,7 @@ condor: hosts
 	apt-get install condor
 	python condor_setup.py `hostname` > /etc/condor/config.d/00_`hostname`
 
-nis:
-	apt-get install nis
-	echo "+::::::" >> /etc/passwd
-	echo "+::::::" >> /etc/shadow
-	echo "+:::" >> /etc/group
-	/etc/init.d/nis stop
-	/etc/init.d/nis start
-
-
-nfs: hosts
+nfs: hostsfile nis
 	apt-get install nfs-common
 	echo 'patung:/srv    /srv    nfs    rw,fsc,async   0   0' >> /etc/fstab
 	echo 'mong:/srv1    /srv1    nfs    rw,fsc,async   0   0' >> /etc/fstab
@@ -40,3 +28,14 @@ nfs: hosts
 	mount -a
 
 	ls -lh /srv/home
+
+hostsfile:
+	cp hosts /etc/hosts
+
+nis:
+	apt-get install nis
+	echo "+::::::" >> /etc/passwd
+	echo "+::::::" >> /etc/shadow
+	echo "+:::" >> /etc/group
+	/etc/init.d/nis stop
+	/etc/init.d/nis start
