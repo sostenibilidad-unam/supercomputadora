@@ -1,6 +1,6 @@
 # Reglamento del Cluster de Supercómputo en el LANCIS
 
-Mayo de 2017
+Marzo de 2019
 
 ## 1 Introducción
 
@@ -23,7 +23,7 @@ Esto se hace posible a través de componentes de software:
 
 #### 1.1.1 Sistema operativo 
 
-Se ha configurado la versión 8.5 de Debian, un sistema robusto, 
+Se ha instalado [Debian](http://debian.org), un sistema robusto, 
 con una amplia base de usuarios y muchos casos de éxito en el 
 contexto de cómputo masivo. Se ha configurado para que todos los 
 nodos de la supercomputadora
@@ -34,7 +34,7 @@ nodos de la supercomputadora
 
 #### 1.1.2 Sistema de cola o fila de ejecución
 
-Se ha instalado y configurado HT-Condor, un sistema de cómputo 
+Se ha instalado y configurado [HT-Condor](http://htcondor.org), un sistema de cómputo 
 distribuido flexible y poderoso. Este sistema permite a los 
 usuarios compartir la infraestructura brindando un acceso 
 ordenado al conjunto entero de recursos. En escencia implementa 
