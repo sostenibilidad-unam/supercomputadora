@@ -85,11 +85,13 @@ para obtener un reporte de la cantidad de espacio libre. Debe estar siempre
 debajo del 80% en todas las particiones que empiezan con /srv*. Por favor
 sea proactiva acerca de mantener el uso de nuestros discos debajo de ese umbral.
 
+### 3.1. Política de respaldos
+
 Por lo limitado del espacio de almacenamiento, no hay ninguna provisión para hacer respaldos
 de los archivos en los discos de la supercomputadora.
-Es su responsabilidad mantener respaldos de sus archivos. Recuerde este mantra: "si tus
+Es su responsabilidad mantener respaldos de sus archivos. Recuerde este mantra: "si mis
 archivos no están almacenados en tres lugares distribuidos geográficamente, es casi
-como si no existieran". Usar discos duros externos es relativamente barato y seguro.
+como si no existieran". Usar tres discos duros externos es relativamente barato y seguro.
 
 No existe una mesa de ayuda. El soporte se brinda por correo electrónico,
 escribiendo a la lista de usuarios o directamente al administrador.
