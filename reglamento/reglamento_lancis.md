@@ -116,4 +116,5 @@ para ciertas tareas de mantenimiento se hace necesario reiniciarlo
 o apagarlo. Pasa poco, casi siempre de manera planificada,
 y nunca han sido más de 6 horas al año.
 
-Aún así, al usar este equipo usted debe ajustar sus expectativas.
+Aún así, al usar este equipo usted debe ajustar sus expectativas, es probable
+que no funcionará las 8,760 horas del año, cada año. 
