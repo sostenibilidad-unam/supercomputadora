@@ -6,7 +6,7 @@ Enero de 2021
 
 La supercomputadora del Laboratorio Nacional de Ciencias de la 
 Sostenibilidad del Instituto de Ecología es un recurso 
-compartido. Tiene la capacidad atender a decenas de personas mismo tiempo, 
+compartido. Tiene la capacidad atender a decenas de personas al mismo tiempo, 
 por lo que es necesario observar algunas reglas para la convivencia armoniosa.
 
 ### 1.1 Infraestructura
