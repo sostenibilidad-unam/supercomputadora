@@ -19,17 +19,9 @@ Es un equipo dedicado a mantener sesiones interactivas y despachar tareas a
 los nodos de cómputo.
 
 
-## 2 Agradecimientos
+## 2 Trabajos de cómputo
 
-La supercomputadora del LANCIS es el resultado del apoyo financiero del proyecto
-de Laboratorios Nacionales de Conacyt y otros proyectos. Para justificar su uso continuado es 
-reglamentario agradecer y notificar a la unidad de Supercómputo del LANCIS-Instituto de 
-Ecología en aquellas publicaciones que hayan requerido el uso de la supercomputadora.
-
-
-## 3 Trabajos de cómputo
-
-### 3.1 Instalación y configuración de software
+### 2.1 Instalación y configuración de software
 
 Está permitido instalar el software que necesite para analizar sus datos directamente en su *home*.
 Esta política permite una buena medida de autogestión por parte de todas.
@@ -40,7 +32,7 @@ otras personas que usan el cluster, hable con ellas, tal vez se ahorre tiempo y 
 La inmensa mayoría de los programas que se pueden ejecutar en nuestro cluster se pueden instalar en directorios personales. Pero a veces, algunos programas requieren permisos de administrador para instalarse en directorios
 especiales del sistema. En esos casos hay que solicitar la instalación al administrador.
 
-#### 3.1.1 Licencias de software
+#### 2.1.1 Licencias de software
 
 Las capacidades de usar, estudiar, modificar y redistribuir programas
 son más adecuadas al proceso de investigación científica. Use software libre
@@ -50,7 +42,7 @@ Procure no usar software privativo. Si tiene planes de usar software privativo, 
 de que conduzca a cuestionable ciencia no-reproducible, usted es responsable
 por las licencias y otros permisos necesarios.
 
-### 3.2 Fila de ejecución
+### 2.2 Fila de ejecución
 
 Se ha instalado y configurado [HT-Condor](http://htcondor.org). Este sistema permite 
 compartir la infraestructura brindando un acceso 
@@ -66,7 +58,7 @@ negativos para todas, de modo que esos procesos serán eliminados
 sin aviso. Además no conviene, usar Condor es la única manera que garantiza la cantidad máxima
 de recursos de cómputo.
 
-## 4. Almacenamiento
+## 3. Almacenamiento
 
 El espacio en disco es un recurso limitado.
 
@@ -105,7 +97,7 @@ Perdón por el párrafo fuera de contexto, es una medida jocosa para
 verificar que los solicitantes lean el reglamento.
 
 
-## 5. Nivel de Servicio
+## 4. Nivel de Servicio
 
 Este cluster está optimizado para alto rendimiento, no para
 alta disponibilidad. Por ejemlpo: no tiene alimentación eléctrica redundante,
@@ -118,3 +110,11 @@ y nunca han sido más de 6 horas al año.
 
 Aún así, al usar este equipo usted debe ajustar sus expectativas, es probable
 que no funcionará las 8,760 horas del año, cada año. 
+
+
+## 5. Agradecimientos
+
+La supercomputadora del LANCIS es el resultado del apoyo financiero del proyecto
+de Laboratorios Nacionales de Conacyt y otros proyectos. Para justificar su uso continuado es 
+reglamentario agradecer y notificar a la unidad de Supercómputo del LANCIS-Instituto de 
+Ecología en aquellas publicaciones que hayan requerido el uso de la supercomputadora.
